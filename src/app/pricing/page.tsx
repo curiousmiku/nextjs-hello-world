@@ -9,7 +9,7 @@ import FeatureCategory from "./_components/FeatureCategory";
 import FeatureItem from "./_components/FeatureItem";
 import { SignedIn, SignedOut } from "@clerk/nextjs";
 import UpgradeButton from "./_components/UpgradeButton";
-import LoginButton from "../../..components/LoginButton";
+import LoginButton from "../../../components/LoginButton";
 
 async function PricingPage() {
   const user = await currentUser();
